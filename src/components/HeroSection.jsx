@@ -129,7 +129,7 @@ export default function HeroSection () {
                     initial="hidden"
                     animate="visible"
                 >
-                    <motion.span variants={wordVariant} style={{display "inline-block"}}>
+                    <motion.span variants={wordVariant} style={{display: "inline-block"}}>
                         YOUR PLACE
                     </motion.span>
                     <br />
