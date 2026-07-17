@@ -93,7 +93,7 @@ const textVariants = {
 };
 
 const wordVariant = {
-    hidden: { opacity: 0, y: 60, rotateX: = 40 },
+    hidden: { opacity: 0, y: 60, rotateX: 40 },
     visible: {
         opacity: 1,
         y: 0,
