@@ -107,7 +107,7 @@ export default function HeroSection () {
     const imgScale = useTransform(scrollY, [0, 600], [1.35, 0.9]);
     const imgOpacity = useTransform(scrollY, [0, 500], [1, 0]);
     const imgY = useTransform(scrollY, [0, 600], [0, 100]);
-
+}
     
     return(
         <>
