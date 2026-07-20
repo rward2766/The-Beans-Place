@@ -208,6 +208,13 @@ export default function FeaturesSection() {
         return() => window.removeEventListener("scroll", handleScroll);
     }, [] );
     return(
+        <section className="carousel-gallery-section" ref={sectionRef}>
+            <div className="carousel-gallery-container">
+                <ImageRow images={row1} offset={offsets[0]} />
+                <ImageRow images={row2} offset={offsets[1]} />
+                <ImageRow images={row3} offset={offsets[2]} />
+            </div>
+        </section>
         
 
     );
