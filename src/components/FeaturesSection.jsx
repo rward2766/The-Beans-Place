@@ -106,6 +106,59 @@ import imgArabianMocha from "../assets/Arabian-Mocha-Bag.png";
 
 /* --- YOUR COMPONENT CODE GOES HERE --- */
 
+const row1 = [
+    imgJamaicanBlueMountain,
+    imgEthiopianHarrar,
+    imgGuatemalaAntigua,
+    imgTanzaniaPeaberry,
+    imgColombianSupremo,
+    imgVietnameserobusta,
+    imgKona,
+    imgArabianMocha,
+    imgKenyaAA,
+    imgUrigacheffe,
+    imgSumatraMandheling,
+    imgPanamaGeisha,
+    imgRedSulawesi,
+    imgCostaRicaTarrazu,
+    imgBrazilianSantos
+];
+
+const row2 = [
+    imgKenyaAA,
+    imgSumatraMandheling,
+    imgVietnameserobusta,
+    imgArabianMocha,
+    imgPanamaGeisha,
+    imgGuatemalaAntigua,
+    imgJamaicanBlueMountain,
+    imgColombianSupremo,
+    imgUrigacheffe,
+    imgTanzaniaPeaberry,
+    imgEthiopianHarrar,
+    imgKona,
+    imgRedSulawesi,
+    imgBrazilianSantos,
+    imgCostaRicaTarrazu
+];
+
+const row3 = [
+    imgGuatemalaAntigua,
+    imgJamaicanBlueMountain,
+    imgEthiopianHarrar,
+    imgKona,
+    imgUrigacheffe,
+    imgTanzaniaPeaberry,
+    imgKenyaAA,
+    imgColombianSupremo,
+    imgVietnameserobusta,
+    imgSumatraMandheling,
+    imgPanamaGeisha,
+    imgArabianMocha,
+    imgRedSulawesi,
+    imgCostaRicaTarrazu,
+    imgBrazilianSantos
+];
 
 function ImageRow( { images,offset = 0} ) {
     // we are going to double the images so the row is wide enough to never show gaps
