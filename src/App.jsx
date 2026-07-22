@@ -89,6 +89,7 @@ export default function App() {
 
             {/* CTA */}
             <section className="bg-cta">
+                <CtaSection />
 
             </section>
 
