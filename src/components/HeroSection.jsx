@@ -155,7 +155,7 @@ export default function HeroSection () {
                 animate={{opacity: 1, y: 0}}
                 transition={{duration: 0.6, delay: 0.6}}
                 >
-                    Farm=t0=cup single-origin beans from Ethiopia, Colombia & beyond. Freshly roasted in small batches and shipped to your foor within 48 hours.
+                    Farm to cup single-origin beans from Ethiopia, Colombia & beyond. Freshly roasted in small batches and shipped to your foor within 48 hours.
                 </motion.p>
                 <motion.div
                 className="hero-actions"
